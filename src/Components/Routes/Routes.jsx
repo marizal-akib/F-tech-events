@@ -7,11 +7,13 @@ import Career from "../Career/Career";
 import Registration from "../Auth/Registration";
 import ServicesDetails from "../Pages/Home/Services/servicesDetails";
 import PrivateRout from "./PrivateRout";
+import ErrorPage from "../Pages/ErrorPage";
 
 const Routes = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

@@ -3,10 +3,12 @@ import NavBar from "../NavBar/NavBar";
 import {FcGoogle} from 'react-icons/fc'
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
-  const {googlePopupSignIn,user} = useContext(AuthContext)
-  console.log(user);
+  const {googlePopupSignIn,signIn} = useContext(AuthContext)
+
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -17,6 +19,16 @@ const Login = () => {
     const email = form.get("email");
     const password = form.get("password");
     console.log(email, password);
+
+    signIn(email,password)
+    .then(res=>{
+      console.log(res.user);
+      navigate(location?.state ? location.state : '/')
+    })
+    
+    .catch(error=>{console.error(error)
+      toast(error.message)
+  })
     
   };
   const handleGoogleLogin = () =>{
@@ -100,6 +112,7 @@ const Login = () => {
           </p>
         </div>
       </div>
+      <ToastContainer/>
     </div>
   );
 };

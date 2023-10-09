@@ -11,12 +11,11 @@ const NavBar = () => {
 
   const navLink = (
     <>
-      <li>
-        <NavLink to="/">Home</NavLink>
-      </li>
-
       {user && (
         <>
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
           <li>
             <NavLink to="/about">About</NavLink>
           </li>
@@ -81,7 +80,12 @@ const NavBar = () => {
             )}
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
-                <img src={user.photoURL} />
+                {
+                  user.photoURL ?
+                  <img src={user.photoURL} />
+                  :
+                  <img src="https://i.ibb.co/XXJqk0N/user.png" alt="" />
+                }
               </div>
             </label>
             <button
