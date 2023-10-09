@@ -1,8 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import {FcGoogle} from 'react-icons/fc'
+import { useContext } from "react";
+import { AuthContext } from "../../Providers/AuthProvider";
 
 const Login = () => {
+  const {googlePopupSignIn,user} = useContext(AuthContext)
+  console.log(user);
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const handleLogin = (e) => {
     e.preventDefault();
     console.log(e.currentTarget);
@@ -12,6 +19,16 @@ const Login = () => {
     console.log(email, password);
     
   };
+  const handleGoogleLogin = () =>{
+    googlePopupSignIn()
+    .then(res=>{
+      console.log(res.user);
+      navigate(location?.state ? location.state : '/')
+    })
+    .catch(error =>{
+      console.log('error',error);
+    })
+  }
   return (
     <div>
       <NavBar></NavBar>
@@ -32,7 +49,7 @@ const Login = () => {
 
           <div className="flex flex-row items-center ">
             <p className="font-semibold text-amber-100">Sign-In with :-</p>
-            <button className="btn  hover:bg-blue-500 bg-blue-700 bg-opacity-60 text-white border-fuchsia-950 "><FcGoogle className="text-xl"></FcGoogle> Google</button>
+            <button onClick={handleGoogleLogin} className="btn  hover:bg-blue-500 bg-blue-700 bg-opacity-60 text-white border-fuchsia-950 "><FcGoogle className="text-xl"></FcGoogle> Google</button>
           </div>
 
           <form onSubmit={handleLogin} className=" w-4/5 mx-auto">
