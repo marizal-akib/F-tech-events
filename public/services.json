@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Tech Conference Management",
+        "image": "conference.jpg",
+        "price": "$999",
+        "description": "Expertly plan and execute tech conferences tailored to your industry."
+    },
+    {
+        "id": 2,
+        "name": "Gaming Convention Organization",
+        "image": "gaming.jpg",
+        "price": "$799",
+        "description": "Host large-scale gaming conventions with top industry developers and gamers."
+    },
+    {
+        "id": 3,
+        "name": "Hackathon Coordination",
+        "image": "hackathon.jpg",
+        "price": "$599",
+        "description": "Organize hackathons to foster innovation and collaboration among tech enthusiasts."
+    },
+    {
+        "id": 4,
+        "name": "Workshop and Training Events",
+        "image": "workshop.jpg",
+        "price": "$499",
+        "description": "Facilitate educational workshops and training sessions for your target audience."
+    },
+    {
+        "id": 5,
+        "name": "Virtual Reality Experiences",
+        "image": "vr.jpg",
+        "price": "$699",
+        "description": "Create immersive virtual reality experiences to engage your audience."
+    },
+    {
+        "id": 6,
+        "name": "E-sports Tournaments",
+        "image": "esports.jpg",
+        "price": "$899",
+        "description": "Plan and host competitive e-sports tournaments with professional gamers."
+    }
+]
