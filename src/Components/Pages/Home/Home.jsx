@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Services from "./Services/Services";
 import Testimonials from "./Testimonials";
 import WhyUs from "./WhyUs";
+import ServicesTitel from "./Services/ServicesTitel";
 
 
 const Home = () => {
@@ -14,7 +15,8 @@ const Home = () => {
         <div>
             <NavBar></NavBar>
             <Banner></Banner>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-blue-950 bg-opacity-10 pt-8 pb-8">
+            <ServicesTitel></ServicesTitel>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4  bg-blue-300 bg-opacity-50 bg-blend-lighten px-8 pt-8 pb-8">
             {
                 services.map(service => <Services key={service.id} service={service}></Services> )
             }

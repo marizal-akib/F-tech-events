@@ -2,43 +2,43 @@
     {
         "id": 1,
         "name": "Tech Conference Management",
-        "image": "conference.jpg",
+        "image": "https://i.ibb.co/X41R0PW/group-man-developers-monitors-showing-lines-code-office-951562-18989.jpg",
         "price": "$999",
-        "description": "Expertly plan and execute tech conferences tailored to your industry."
+        "description": "Our Tech Conference Management service is designed for organizations looking to host cutting-edge technology conferences that leave a lasting impact. We specialize in bringing together industry experts, thought leaders, and innovators to create an immersive experience. Our team meticulously plans every detail, from selecting state-of-the-art venues to curating compelling speaker sessions and workshops. With us, you can expect seamless event execution, networking opportunities, and access to the latest trends in the tech world. Join us in shaping the future of technology through unforgettable conferences."
     },
     {
         "id": 2,
         "name": "Gaming Convention Organization",
-        "image": "gaming.jpg",
+        "image": "https://i.ibb.co/fxNXQLD/people-sitting-front-projection-with-words-x2-it-662214-24627.jpg",
         "price": "$799",
-        "description": "Host large-scale gaming conventions with top industry developers and gamers."
+        "description": "Step into the world of gaming with our Gaming Convention Organization service. Whether you're a game developer, esports enthusiast, or gaming community organizer, we have the expertise to create exceptional gaming conventions. From organizing esports tournaments to showcasing the latest gaming technology, our team ensures that your convention stands out. We provide everything from venue selection to marketing and promotion, ensuring that attendees have an unforgettable experience. Join us in celebrating the gaming culture and connecting with passionate gamers from around the world."
     },
     {
         "id": 3,
         "name": "Hackathon Coordination",
-        "image": "hackathon.jpg",
+        "image": "https://i.ibb.co/17dj813/online-laptop-education-digital-video-163305-238433.jpg",
         "price": "$599",
-        "description": "Organize hackathons to foster innovation and collaboration among tech enthusiasts."
+        "description": "Fuel innovation and collaboration with our Hackathon Coordination service. Hackathons are the breeding grounds for groundbreaking ideas, and our team specializes in creating the perfect environment for tech enthusiasts and problem solvers. We handle all aspects, from conceptualization to logistics, ensuring that your hackathon runs smoothly. Our expert facilitators guide participants through intense coding sessions, mentorship, and pitch presentations. Whether you're an educational institution fostering talent or a company seeking fresh solutions, our hackathons are a catalyst for innovation."
     },
     {
         "id": 4,
         "name": "Workshop and Training Events",
-        "image": "workshop.jpg",
+        "image": "https://i.ibb.co/MSnLLHF/group-people-sitting-front-projection-screen-852340-4761.jpg",
         "price": "$499",
-        "description": "Facilitate educational workshops and training sessions for your target audience."
+        "description": "Empower your audience with our Workshop and Training Events. We specialize in designing and delivering educational workshops and training sessions that equip attendees with valuable skills and knowledge. Whether it's a technical workshop, leadership training, or professional development program, we tailor our events to meet your objectives. Our experienced trainers and facilitators ensure engaging and interactive sessions. We handle venue selection, curriculum development, and logistics, allowing you to focus on delivering impactful training experiences."
     },
     {
         "id": 5,
         "name": "Virtual Reality Experiences",
-        "image": "vr.jpg",
+        "image": "https://i.ibb.co/dcDSmh2/immerse-yourself-digital-world-with-virtual-reality-headsets-561855-3134.jpg",
         "price": "$699",
-        "description": "Create immersive virtual reality experiences to engage your audience."
+        "description": "Dive into the immersive world of Virtual Reality with our Virtual Reality Experiences service. Virtual Reality (VR) is transforming how we interact with technology, and our team is at the forefront of this revolution. We create custom VR experiences that engage and captivate audiences. Whether it's a product launch, educational tour, or entertainment event, our VR solutions transport users to a new dimension. Our experts handle everything from VR content creation to hardware setup, ensuring a seamless and unforgettable experience for your audience."
     },
     {
         "id": 6,
         "name": "E-sports Tournaments",
-        "image": "esports.jpg",
+        "image": "https://i.ibb.co/1JzPGq8/major-esports-event-team-professional-gamers-playing-offline-gaming-tournament-stadium-777271-16256.jpg",
         "price": "$899",
-        "description": "Plan and host competitive e-sports tournaments with professional gamers."
+        "description": "Experience the thrill of competitive gaming with our E-sports Tournaments service. E-sports is more than just a pastime; it's a global phenomenon, and we're here to help you organize and host top-tier tournaments. Our team has the expertise to handle every aspect, from venue selection to live streaming and prize coordination. Whether you're an e-sports organization, a game developer, or a brand looking to tap into the gaming community, our tournaments provide a platform for players to showcase their skills and for audiences to enjoy world-class e-sports action."
     }
 ]

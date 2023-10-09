@@ -8,7 +8,7 @@ const Footer = ({services}) => {
         <nav>
           <header className="footer-title">Services</header>
           
-            {services.map(service=><Link key={service.id} className="link link-hover">{service.name}</Link>)}
+            {services.map(service=><Link key={service.id} to={`/service/${service.id}`} className="link link-hover">{service.name}</Link>)}
         </nav>
         <nav>
           <header className="footer-title">Company</header>
