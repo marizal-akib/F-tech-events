@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { updateProfile } from "firebase/auth";
 
 const Registration = () => {
   const { createUser } = useContext(AuthContext);
@@ -33,6 +34,14 @@ const Registration = () => {
       .then((res) => {
         console.log(res.user);
         toast("User created successfully");
+        updateProfile(res.user, {
+          displayName: name,
+          photoURL: photo
+
+          
+        })
+        .then(()=>console.log('update'))
+        .catch(error=>console.log(error))
       })
       .catch((error) => {
         console.error(error);
